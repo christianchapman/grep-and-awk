@@ -1,0 +1,7 @@
+sdgghfg hello fgdhgfsdhchristian fdhjfhsdbadkfdsjh
+
+match from christian to end
+grep -Po "christian.*"
+
+match from christian to bad
+grep -Po "christian.*(?=bad)"
