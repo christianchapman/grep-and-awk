@@ -5,3 +5,6 @@ grep -Po "christian.*"
 
 match from christian to bad
 grep -Po "christian.*(?=bad)"
+
+
+cut -c -100     <<< cut from 0 to 100 of line 
