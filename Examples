@@ -1,10 +1,18 @@
 sdgghfg hello fgdhgfsdhchristian fdhjfhsdbadkfdsjh
 
 match from christian to end
+=============================
 grep -Po "christian.*"
 
 match from christian to bad
+==========================
 grep -Po "christian.*(?=bad)"
 
+grep around a file
+====================
+grep -B 4
+grep -A 4
 
+cut 
+=======
 cut -c -100     <<< cut from 0 to 100 of line 
