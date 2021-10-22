@@ -1,3 +1,8 @@
+match A or B
+=============================
+egrep -h "christian|chapman"
+
+
 
 match from christian to end
 =============================
