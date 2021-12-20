@@ -20,3 +20,10 @@ grep -A 4
 cut 
 =======
 cut -c -100     <<< cut from 0 to 100 of line 
+
+
+
+ls
+===
+show human readable file size
+ls -lh
